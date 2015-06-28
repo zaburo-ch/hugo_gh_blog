@@ -1,0 +1,9 @@
+languageCode = "ja"
+title = "ZABURO app"
+theme = "angels-ladder"
+disqusShortname = "zaburoapp"
+
+[Params]
+subtitle = "アプリ作ったり、なんやかんや"
+github = "http://zaburo-ch.github.io/zaburo_app"
+copyright = "Written by ZABURO"
