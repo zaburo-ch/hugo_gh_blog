@@ -1,5 +1,0 @@
-console.log("test");
-
-function onb(){
-  document.getElementById("bookmarklink").href = "javascript:(function(){var imgurl='"+document.getElementById("imgurl").value+"';var msul=$('ul').eq(1);msul.children().attr('style','margin-right:25px;');var newms=$('<li>');newms.css({'position':'relative','float':'left','width':'150px','height':'270px','background-image':'-moz-linear-gradient(top,#931f20,#f29d80 50%,#931f20)'});newms.css('background-image','-webkit-gradient(linear,left top,left bottom,from(#931f20),color-stop(0.5,#f29d80),to(#931f20))');var msimg=$('<img>');msimg.attr('src',imgurl);msimg.css({'position':'absolute','top':'5px','left':'5px',});newms.append(msimg);var overlay=$('<div>');overlay.css({'position':'absolute','top':'4px','left':'4px','width':'142px','z-index':'100','height':'262px','background':'rgba(255,255,255,0.15)'});overlay.hide();newms.append(overlay);newms.hover(function(){overlay.show();},function(){overlay.hide();});msul.append(newms);})()";
-}
