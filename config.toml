@@ -2,8 +2,9 @@ languageCode = "ja"
 title = "ZABURO app"
 theme = "angels-ladder"
 disqusShortname = "zaburoapp"
+baseurl = "https://zaburo-ch.github.io/"
 
 [Params]
 subtitle = "アプリ作ったり、なんやかんや"
-github = "http://zaburo-ch.github.io/zaburo_app"
+github = "https://github.com/zaburo-ch"
 copyright = "Written by ZABURO"
