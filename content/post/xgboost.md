@@ -111,7 +111,7 @@ $$F\_{t}(x\_i) = F\_{t-1}(x\_i) - \alpha\_t \frac{\partial L(y\_i, F\_{t-1}(x\_i
 $$f\_t(x\_i) = - \frac{\partial L(y\_i, F\_{t-1}(x\_i))}{\partial F\_{t-1(x\_i)}}$$
 
 となるように弱学習器 $f\_t$ の学習を行います．  
-具体的には各 $x\_i$ に対して次のような $y\_i$ を考え，
+具体的には各 $x\_i$ に対して次のような $\tilde{y\_i}$ を考え，
 
 $$\tilde{y\_i} = - \frac{\partial L(y\_i, F\_{t-1}(x\_i))}{\partial F\_{t-1}(x\_i)}$$
 
