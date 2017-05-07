@@ -63,7 +63,7 @@ $\alpha\_t$ がこの更新でその方向にどれだけ動かすかを表し�
 
 $\alpha\_t$ の決め方はいくつか提案されていますが，  
 [Line Search](https://en.wikipedia.org/wiki/Line\_search) と呼ばれる手法では
-$\phi(p\_{t-1} - \alpha \nabla f(p\_{t-1}))$ を最小化する $\alpha$ を用います．
+$\phi(p\_{t-1} - \alpha \nabla \phi(p\_{t-1}))$ を最小化する $\alpha$ を用います．
 
 ニューラルネットの学習などの文脈でGradient Descnetが使われる場合には，  
 N個のデータ $(x\_i, y\_i)$ と損失関数$L$に対して，  
